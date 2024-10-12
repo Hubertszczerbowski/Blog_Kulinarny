@@ -6,60 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O nas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
-    <nav id='menu'>
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars" area-hidden="true"> </i>
+        </label>
+        <label class="logo">Kucharzyk.pl </label>
         <ul>
-            <li><a href='#'>Strona główna</a></li>
-            <li><a class='dropdown-arrow' href='#'>Dania</a>
-                <ul class='sub-menus'>
-                    <li><a href='#'>Products 1</a></li>
-                    <li><a href='#'>Products 2</a></li>
-                    <li><a href='#'>Products 3</a></li>
-                    <li><a href='#'>Products 4</a></li>
-                </ul>
-            </li>
-            <li><a href='#'>O nas</a></li>
-            <li><a class='dropdown-arrow' href='#'>Service</a>
-                <ul class='sub-menus'>
-                    <li><a href='#'>Services 1</a></li>
-                    <li><a href='#'>Services 2</a></li>
-                    <li><a href='#'>Services 3</a></li>
-                </ul>
-            </li>
-            <li><a href='#'>Kontakt</a></li>
+            <li><a class="active" href="#">Strona główna</a></li>
+            <li><a href="#">Dania</a></li>
+            <li><a href="#">Serwis</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Kontakt</a></li>
         </ul>
-        <img src="" alt="navicon" id="Navicon">
     </nav>
+
 
     <h1>O nas</h1>
     <h2>Nasz zespół</h2>
     <div class="container">
-        <div class="osoby">
+        <div class="users">
             <img src="user.png" alt="">
+            <img src="user.png" alt="">
+            <img src="user.png" alt="">
+            <img src="user.png" alt="">
+
+        </div>
+        <div class="names">
             <p>Łukasz Czubin</p>
-            <img src="user.png" alt="">
             <p>Hubert Szczerbowski</p>
-            <img src="user.png" alt="">
             <p>Kacper Mańka</p>
-            <img src="user.png" alt="">
             <p>Dominika Mroczek</p>
         </div>
     </div>
     <div class="container2">
         <div class="box">
             <h3>O portalu</h3>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                Deserunt aut quaerat asperiores quas? Nam velit blanditiis a vel sequi recusandae facere ad totam
-                doloremque iste, aliquid culpa eveniet quidem accusantium!</h4>
+            <h4>Jego celem, jest zachęcenie innych i siebie nawzajem do samodzielnego przygotowywania smacznych i przede wszystkim zdrowych posiłków.</h4>
         </div>
         <div class="box2">
             <h3>Nasza misja</h3>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                Deserunt aut quaerat asperiores quas? Nam velit blanditiis a vel sequi recusandae facere ad totam
-                doloremque iste, aliquid culpa eveniet quidem accusantium!</h4>
+            <h4>Wierzymy, że jedzenie jest deklaracją, manifestem – a także wyrazem naszej odpowiedzialności. <br>
+                Dzielimy się wiedzą i zapraszamy do wspólnego stołu. <br>
+                Rytm naszych działań wyznacza sezonowość – wpływa na każdy aspekt naszej rzeczywistości, warunkuje wybory dokonywane każdego dnia.</h4>
         </div>
 
     </div>
