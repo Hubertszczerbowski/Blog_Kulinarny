@@ -5,6 +5,31 @@ body, html{
 	background-color: black;
     font-family: 'Karla';
 }
+.E-mail{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	color: white;
+}
+.Phone{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	color: white;
+}
+.Znajdziesz-nas{
+	width: 100%;
+	height: 230px;
+	text-align: center;
+	color: white;
+}
+.map{
+	text-align: center;
+	height: 500px;
+	width: 100%;
+	background-color: #0092e6;
+	align-content: center;
+}
 h1 {
 	color: white;
 	display: flex;
@@ -19,11 +44,16 @@ h2 {
 	font-size: 40px;
 	text-transform: uppercase;
 }
-p{
-	color: white;
-	display: flex;
-	justify-content: center;
-	width: 298px;
+img{
+	border-radius: 90px;
+	
+}
+.icon-down{
+	text-align: center;
+	
+}
+.icon-down a img {
+	padding: 30px;
 }
 
 
@@ -101,4 +131,43 @@ a:hover {
 
 #check{
     display: none;
+}footer{
+    padding-top: 20px;
+}
+.footer_cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+}
+.copy p{
+    text-align: center;
+    font-size: 30px;
+  padding-top: 20px;
+}
+.footer_logo{
+    width: 10%;
+}
+.footer_cont img{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    padding: 0 20px;
+}
+.team p{
+    text-align: center;
+    font-size: 30px;
+  padding-top: 20px; 
+}
+
+@media screen and (max-width: 484px) {
+   
+     .footer_cont p{
+        font-size: 20px;
+     }
+     .footer_cont img{
+        padding: 0 10px;
+     }
 }
