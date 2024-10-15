@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+	background-color: black;
+    font-family: 'Karla';
+}
+.E-mail{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	color: white;
+}
+.Phone{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	color: white;
+}
+.Znajdziesz-nas{
+	width: 100%;
+	height: 230px;
+	text-align: center;
+	color: white;
+}
+.map{
+	text-align: center;
+	height: 500px;
+	width: 100%;
+	background-color: #0092e6;
+	align-content: center;
+}
+h1 {
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+h2 {
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+img{
+	border-radius: 90px;
+	
+}
+.icon-down{
+	text-align: center;
+	
+}
+.icon-down a img {
+	padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Nawigacja */
+nav {
+	background: #0092e6;
+	height: 80px;
+	width: 100%;
+}
+
+label.logo {
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	border-radius: 3px;
+    text-decoration: none;
+}
+
+a .active,
+a:hover {
+	background: #1b9bff;
+	transition: .5s;
+
+}
+
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#check{
+    display: none;
+}footer{
+    padding-top: 20px;
+}
+.footer_cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+}
+.copy p{
+    text-align: center;
+    font-size: 30px;
+  padding-top: 20px;
+}
+.footer_logo{
+    width: 10%;
+}
+.footer_cont img{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    padding: 0 20px;
+}
+.team p{
+    text-align: center;
+    font-size: 30px;
+  padding-top: 20px; 
+}
+
+
+@media screen and (max-width:1000px) {
+    .content {
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .content {
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+        justify-content: center;
+    }
+.character{
+    width: 50%;
+}
+.info_text{
+  
+    width: 100%;
+    font-size: 40px;
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 75px;
+        left: -120%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+
+    #check:checked~ul {
+        left: 0;
+
+    }
+
+}
+@media screen and (max-width: 1036px) {
+    label.logo{
+        font-size: 30px; 
+        padding-left: 50px;
+     }
+}
+@media screen and (max-width: 484px) {
+    label.logo{
+        font-size: 30px; 
+        padding-left: 50px;
+     }
+     .footer_cont p{
+        font-size: 20px;
+     }
+     .footer_cont img{
+        padding: 0 10px;
+     }
+}
+@media screen and (max-width: 956px) {
+    label.logo{
+        font-size: 30px; 
+        padding-left: 40px;
+     }
+}
+@media screen and (max-width:320px){
+    label.logo{
+        font-size: 30px; 
+        padding-left: 5;
+        padding-right: 20px;
+    }
+    .hero-text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:376px){
+    label.logo{
+        font-size: 30px; 
+        padding-left: 5;
+        padding-right: 20px;
+    }
+    .hero-text{
+        font-size: 20px;
+    }
+}
